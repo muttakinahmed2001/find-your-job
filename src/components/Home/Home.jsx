@@ -2,6 +2,10 @@ import React from 'react';
 import './Home.css'
 import { useLoaderData } from 'react-router-dom';
 import Category from '../category/category';
+import Careers from '../Careers/Careers';
+ 
+ 
+ 
 
 const Home = () => {
     const categories = useLoaderData();
@@ -26,6 +30,13 @@ const Home = () => {
      }</div>
      
    </section>
+{/* featured job section  */}
+   <section className='text-center featured'>
+    <h1 className='featured-title'>Featured Jobs</h1>
+    <p className='featured-description'>Explore thousands of job opportunities with all the information you need. Its your future</p>
+    <Careers></Careers>
+   </section>
+   
 </div>
        
     );

@@ -1,0 +1,114 @@
+[
+    {
+      "id":"1",
+      "img":"./images/All Images/google-1-1 1.png",
+      "jobName": "Technical Database Engineer",
+      "companyName": "Google LLC",
+      "jobType": "Onsite",
+      "jobTime": "Full-time",
+      "location": "Mountain View, CA",
+      "salary": "$140,000 - $180,000",
+      "jobDescription": "Google is seeking a Technical Database Engineer to design and optimize complex database systems that power our products.",
+      "jobResponsibility": "Design and implement complex database systems, optimize database performance, diagnose and resolve database issues, and collaborate with cross-functional teams to improve our products.",
+      "educationalRequirements": "Bachelor's or Master's degree in Computer Science, Computer Engineering, or a related field",
+      "experience": "5+ years of experience in database engineering or a related field",
+      "contactInformation": {
+        "phone": "555-555-5555",
+        "email": "jobs@google.com",
+        "address": "1600 Amphitheatre Parkway, Mountain View, CA"
+      }
+    },
+    {
+      "id":"2",
+      "img":"./images/All Images/netflix-4 1.png",
+      "jobName": "Senior Product Designer",
+      "companyName": "Netflix",
+      "jobType": "Onsite",
+      "jobTime": "Full-time",
+      "location": "Los Gatos, CA",
+      "salary": "$150,000 - $180,000",
+      "jobDescription": "Netflix is seeking a Senior Product Designer to help define and design the user experience for our streaming service.",
+      "jobResponsibility": "Collaborate with cross-functional teams to define and design the user experience, create wireframes and prototypes, conduct user research and testing, and advocate for design excellence.",
+      "educationalRequirements": "Bachelor's or Master's degree in Graphic Design, Interaction Design, or a related field",
+      "experience": "7+ years of experience in product design or a related field",
+      "contactInformation": {
+        "phone": "555-555-5555",
+        "email": "jobs@netflix.com",
+        "address": "100 Winchester Circle, Los Gatos, CA"
+      }
+    },
+    {
+      "id":"3",
+      "img":"./images/All Images/tesla-9 1.png",
+      "jobName": "Software Engineer",
+      "companyName": "Tesla",
+      "jobType": "Remote",
+      "jobTime": "Full-time",
+      "location": "Palo Alto, CA",
+      "salary": "$120,000 - $150,000",
+      "jobDescription": "Tesla is seeking a Software Engineer to develop software solutions for our electric vehicles and energy products.",
+      "jobResponsibility": "Design, develop, and maintain software solutions, collaborate with cross-functional teams, write high-quality code, and continuously improve our products.",
+      "educationalRequirements": "Bachelor's or Master's degree in Computer Science or a related field",
+      "experience": "3+ years of experience in software development or a related field",
+      "contactInformation": {
+        "phone": "555-555-5555",
+        "email": "jobs@tesla.com",
+        "address": "3500 Deer Creek Road, Palo Alto, CA"
+      }
+    },
+    {
+        "id":"4",
+        "img":"./images/All Images/",
+        "jobName": "Data Scientist",
+        "companyName": "Facebook",
+        "jobType": "Onsite",
+        "jobTime": "Full-time",
+        "location": "Menlo Park, CA",
+        "salary": "$150,000 - $180,000",
+        "jobDescription": "Facebook is seeking a Data Scientist to develop data-driven solutions for our products and business.",
+        "jobResponsibility": "Develop data-driven solutions",
+        "educationalRequirements":"Bachelor's or Master's degree in Computer Science, Statistics, Mathematics, or a related field",
+        "experience":  "5+ years of experience in data science or a related field",
+        "contactInformation": {
+          "phone": "888-888-8888",
+          "email": "jobs@facebook.com",
+          "address":"1 Hacker Way, Menlo Park, CA"
+        }
+      },
+      {
+        "id":"5",
+        "jobName": "Software Development Engineer",
+        "companyName": "Amazon",
+        "jobType": "Onsite",
+        "jobTime": "Full-time",
+        "location": "Seattle, WA",
+        "salary": "$120,000 - $150,000",
+        "jobDescription": "Amazon is seeking a Software Development Engineer to develop and maintain high-quality software systems.",
+        "jobResponsibility": "Design, develop, and maintain software systems, write high-quality code, and continuously improve our products.",
+        "educationalRequirements": "Bachelor's or Master's degree in Computer Science or a related field",
+  "experience": "3+ years of experience in software development",
+  "contactInformation": {
+    "phone": "555-555-5555",
+    "email": "jobs@amazon.com",
+    "address": "410 Terry Ave N, Seattle, WA"
+  }
+      },
+      {
+        "id":"6",
+        "jobName": "Front-end Developer",
+    "companyName": "Microsoft",
+    "jobType": "Onsite",
+    "jobTime": "Full-time",
+    "location": "Redmond, WA",
+    "salary": "$110,000 - $130,000",
+    "jobDescription": "Microsoft is seeking a Front-end Developer to build responsive and engaging web applications.",
+    "jobResponsibility": "Build responsive and engaging web applications",
+    "educationalRequirements": "Bachelor's degree in Computer Science, or related field",
+    "experience": "3+ years of experience as a front-end developer",
+    "contactInformation": {
+      "phone": "555-123-4567",
+      "email": "jobs@microsoft.com",
+      "address": "One Microsoft Way, Redmond, WA 98052"
+        }}
+    ]
+    

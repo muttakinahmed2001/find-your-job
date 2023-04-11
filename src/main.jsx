@@ -13,31 +13,38 @@ import Home from './components/Home/Home';
 import Statistics from './components/Statistics/Statistics';
 import AppliedJobs from './components/AppliedJobs/AppliedJobs';
 import Blog from './components/Blog/Blog';
+import Careers from './components/Careers/Careers';
+ 
+ 
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element:  <Main></Main>,
+    element: <Main></Main>,
     errorElement: <ErrorPage />,
     children: [
       {
         path: "/",
         element: <Home></Home>,
-        loader:()=>fetch('catagories.json')
-         
+        loader: () => fetch('/catagories.json')
+
+
       },
+       
       {
-        path:'/statistics',
-        element:<Statistics></Statistics>
+        path: '/statistics',
+        element: <Statistics></Statistics>
       },
       {
         path: '/appliedJobs',
-        element:<AppliedJobs></AppliedJobs>
+        element: <AppliedJobs></AppliedJobs>
       },
       {
-        path:'/blog',
-        element:<Blog></Blog>
-      }
+        path: '/blog',
+        element: <Blog></Blog>
+      } 
+       
+       
     ],
   },
 ]);
@@ -45,6 +52,6 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-   <RouterProvider router={router} />
+    <RouterProvider router={router} />
   </React.StrictMode>,
 )

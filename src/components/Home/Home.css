@@ -40,6 +40,19 @@ font-size: 48px;
     text-align: center;
      
 }
+
+.featured{
+    margin-top: 130px;
+}
+.featured-title{
+    font-weight: 800;
+    font-size: 48px;
+}
+.featured-description{
+    font-weight: 500;
+    color: #757575;
+    font-size: 16px;
+}
 @media screen and (max-width: 575px) {
      .categories{
         display: grid;
