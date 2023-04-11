@@ -4,15 +4,15 @@ import './Header.css'
 
 const Header = () => {
     return (
-         <nav className='flex'>
-            <h2>Find your job</h2>
+         <nav className="d-flex justify-content-around">
+            <h2 className='title'>Find your job</h2>
             <section className='link'>
                  <Link to='/'>Home</Link>
-            <Link to='/statistic'>Statistic</Link>
-            <Link>Applied jobs</Link>
-            <Link>Blog</Link>
+            <Link to='/statistics'>Statistic</Link>
+            <Link to='/appliedJobs'>Applied jobs</Link>
+            <Link to='/blog'>Blog</Link>
             </section>
-            <button>Start applying</button>
+            <button className='btn'>Start Applying</button>
            
              
          </nav>

@@ -11,6 +11,8 @@ import Main from './components/Layout/Main';
 import ErrorPage from './components/error-page';
 import Home from './components/Home/Home';
 import Statistics from './components/Statistics/Statistics';
+import AppliedJobs from './components/AppliedJobs/AppliedJobs';
+import Blog from './components/Blog/Blog';
 
 const router = createBrowserRouter([
   {
@@ -25,6 +27,14 @@ const router = createBrowserRouter([
       {
         path:'/statistics',
         element:<Statistics></Statistics>
+      },
+      {
+        path: '/appliedJobs',
+        element:<AppliedJobs></AppliedJobs>
+      },
+      {
+        path:'/blog',
+        element:<Blog></Blog>
       }
     ],
   },
