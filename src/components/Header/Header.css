@@ -1,4 +1,8 @@
-
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 nav a{
     font-size: large;
     margin-left: 15px;
@@ -15,7 +19,7 @@ font-weight: 800px;
 font-size: 20px;
 }
 nav{
-    margin-top: 60px;
+     
     margin-bottom: 148px;
 }
 .title{
