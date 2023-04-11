@@ -17,13 +17,24 @@ border-radius: 8px;
 color: #FFFFFF;
 font-weight: 800px;
 font-size: 20px;
+ 
 }
 nav{
-     
+     margin-top: 71px;
     margin-bottom: 148px;
+     
 }
 .title{
     color: #1A1919;
     font-weight: 800;
 font-size: 32px;
+margin-bottom: 28px;
 }
+
+@media screen and (max-width: 575px) {
+     .flex{
+        display: flex;
+        flex-direction: column;
+         justify-content: center;
+     }
+  }
