@@ -1,0 +1,10 @@
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    font-size: large;
+    margin-left: 15px;
+    text-decoration: none;
+}
