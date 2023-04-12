@@ -1,0 +1,29 @@
+.details-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 50px;
+     gap: 4;
+}
+.box{
+    width: 424px;
+height: 461px;
+margin-left: 40px;
+background: linear-gradient(90deg, rgba(126, 144, 254, 0.1) 0%, rgba(152, 115, 255, 0.1) 100%);
+border-radius: 8px;
+}
+.iconic-img{
+    width: 24px;
+height: 24px;
+}
+
+.btn-apply{
+    width: 420px;
+height: 65px;
+background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+border-radius: 8px;
+margin-top: 20px;
+  margin-left: 20px;
+  color: white;
+  border: 0px;
+   font-size: 20px;
+}
